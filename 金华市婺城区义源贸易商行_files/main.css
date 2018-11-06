@@ -1,0 +1,112 @@
+/* CSS Document */ 
+div,ul,ol,li,dl,dd,dt,h1,h2,h3,h4,h5,h6,table,p,form{ padding:0; margin:0;}
+ul,ol{ list-style:none; list-style-type:none;}
+body{ margin:0px; padding:0px; font-size:12px; background:#f4f4f4;}
+.clear{ clear:both;}
+.tb{ margin:0 auto;}
+.tb1{ margin:10px auto 0;}
+.tb2{ margin:15px auto 0;}
+ 
+.toptb{
+	background:#fff;
+	margin:0 auto;
+	border-top:4px solid #bbb;
+	border-bottom:3px solid #024f9f;
+	height:88px;
+	overflow:hidden;
+	margin:0 auto;
+	width:960px;
+}
+.topright{ text-align:right; padding-right:20px;}
+.topright a:link,.topright a:visited{ color:#000; text-decoration:none;}
+.topright a:hover{ color:#f60; text-decoration:none;}
+.version{ text-align:right; padding-right:15px; margin-bottom:10px;}
+.navtb{ background:#fff; border-bottom:1px solid #333534; height:38px; margin:0 auto; width:960px;}
+#navigation{ width:820px;}
+#navigation ul{ width:100%;}
+#navigation ul li{ float:left; width:91px; height:38px; line-height:38px; color:#000; }
+#navigation ul li a:link,#navigation ul li a:visited{ display:inline-block; width:91px; height:38px; line-height:38px; color:#000; background:url(../images/arr.gif) no-repeat 10px 13px; text-decoration:none;}
+#navigation ul li a:hover{ display:inline-block;width:91px; height:38px; line-height:38px; color:#fff; text-decoration:none; background:url(../images/navhov.gif) no-repeat center center;}
+
+.searchtd{ width:395px; height:32px; line-height:32px; text-align:center; overflow:hidden;}
+.searchtd input{ vertical-align:middle;}
+.searchtxt{ background:#fff url(../images/zoom.gif) no-repeat 0 0; border:1px solid #9a9a9a; height:16px; line-height:16px; text-indent:27px; width:235px;}
+.searchbtn{ background:url(../images/search.gif) no-repeat; width:60px; height:20px; cursor:pointer; border:none;}
+ 
+.mainwrap{ margin:12px auto 0;}
+.indextd{ border:1px solid #999; background:#fff;}
+.coltoptd{ border-top:3px solid #999; border-bottom:1px solid #999; height:28px;}
+.coltitle{ float:left; padding-left:15px; }
+.colmore{ float:right; padding-right:10px;}
+.colbottd{ height:185px; vertical-align:top;} 
+.colbottd1{ height:565px; vertical-align:top;} 
+ 
+.newslist{ width:245px; margin:0 auto;}
+.newslist ul{ width:100%; height:180px; overflow:hidden;}
+.newslist ul li{ height:26px; line-height:26px; background:url(../images/arr2.gif) repeat-x bottom;}
+.newslist ul li span{ float:right;}
+.newslist ul li a:link,.newslist ul li a:visited{color:#000; text-decoration:none;}
+.newslist ul li a:hover{color:#f60; text-decoration:none;}
+
+#demo { width: 445px; overflow:hidden; height:140px; margin:15px auto;} 
+#indemo { float: left; width: 800%; }
+#demo1 { float: left; }
+#demo2 { float: left; } 
+.list{ float:left; width:120px; margin-left:15px; _margin-left:10px; color:#333; line-height:20px; text-align:center;}
+.list a:link,.list a:visited,.list a:hover{color:#333; text-decoration:none;}
+.list img{width:118px; height:118px; border:1px solid #a29494;} 
+ 
+.locat{ border-top:3px solid #999; border-bottom:1px solid #999; height:28px; font-size:14px; font-weight:bold; text-indent:25px; color:#333; background:url(../images/arr3.gif) no-repeat 5px 5px;}
+.locat a:link,.locat a:visited,.locat a:hover{ color:#d69800; text-decoration:none;}
+
+.psorttb{ margin:10px auto;}
+.parentsort{ background:url(../images/colbg.gif) no-repeat; height:33px; line-height:35px; width:190px; font-size:12px; font-weight:bold; text-indent:23px;}
+.parentsort a:link,.parentsort a:visited{ color:#1a1a1a; text-decoration:none;}
+.parentsort a:hover{ color:#f60; text-decoration:none;}
+.csorttb{ height:25px; border-bottom:1px dotted #ccc; text-indent:10px;}
+.childsort{ padding-bottom:5px; }
+.childsort a:link,.childsort a:visited{ color:#333; text-decoration:none;}
+.childsort a:hover{ color:#f60; text-decoration:none;}
+
+.newstb { border-collapse:collapse; width:100%; margin:10px auto 0;}
+.newstb td{border:1px solid #694d08; padding:3px;}
+.newstitle{text-align:left; font-size:12px; background:url(../images/arr2.gif) repeat-x bottom;}
+.newstitle span a:link,.newstitle span a:visited{ color:#000; text-decoration:none;}
+.newstitle span a:hover{ color:#f00; text-decoration:none;}
+.newstitle a:link,.newstitle a:visited{ color:#565656; text-decoration:none;}
+.newstitle a:hover{ color:#f60; text-decoration:none;}
+.newstime{ font-size:12px; color:#565656; text-align:left; font-family:Arial, Helvetica, sans-serif; background:url(../images/arr2.gif) repeat-x bottom;}
+
+.articletitle{ font-size:14px; font-weight:bold; text-align:center; height:45px; color:#333; }
+.articleinfo{ height:22px; text-align:center; border-top:1px dashed #ccc; padding-bottom:10px;}
+.maincontent{ color:#333; line-height:22px; padding:10px; font-size:12px; width:710px; overflow:hidden;}  
+.maincontent img{
+  border:0; 
+  margin:0; 
+  padding:0; 
+  max-width:700px; 
+  width: expression(this.width > 700 && this.width > this.height ? 700px : 'auto';); 
+/*  max-height:1650px; 
+  height: expresion(this.height > 1650 ? 1650px : 'auto';); */
+}
+
+.prodtitle{text-align:center; font-weight:bold; font-size:14px; height:15px; color:#e3c077;}
+.prodimg img{ border:1px solid #ccc; padding:2px;}
+.prodcol{ font-size:12px; font-weight:bold; color:#fff;}
+.prodname{ height:25px; text-align:left; color:#333; padding-left:10px;}
+.prodname span{ font-family:Arial, Helvetica, sans-serif;}
+.prodname a:link,.prodname a:visited,.prodname a:hover{ color:#333; text-decoration:none;} 
+
+.aboutcont{ color:#e3c077; line-height:22px; padding:10px;}
+
+.Gobtn{ cursor:pointer; background:url(../images/gobtn.gif) no-repeat; border:none; width:35px; height:22px; text-align:center; }
+.button{ cursor:pointer; background:url(../images/btnbg.gif) no-repeat; border:none; width:60px; height:22px; text-align:center; }
+.inputxt{ border:1px solid #ccc;}
+
+.pager{ color:#333;}
+.pager a:link,.pager a:visited,.pager a:hover{ color:#333; text-decoration:none;}
+ 
+#footer{ width:960px; height:85px; margin:12px auto 0; border-top:4px solid #024f9f; color:#000; line-height:22px;}
+#footer span{ font-family:Arial, Helvetica, sans-serif;} 
+#footer a:link,#footer a:visited{ color:#000; text-decoration:none;}
+#footer a:hover{ color:#f60; text-decoration:none; }   
